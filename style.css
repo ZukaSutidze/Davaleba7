@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=BhuTuka+Expanded+One&family=Kumbh+Sans:wght@400;700&family=Open+Sans&family=Oswald:wght@500&family=Outfit:wght@400;700&family=Plus+Jakarta+Sans&family=Poppins&family=Roboto:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'kumbh sans';
+    background-color: #19A1AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/bg-pattern-top.svg), url(./assets/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 48vw bottom 50vh, left 45vw top 24vw;
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+    background-color: #FFF;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.50);
+ 
+}
+
+.card{
+ border-radius: 15px 15px 0px 0px;
+}
+
+.profile{
+    border-radius: 96px;
+    position: relative;
+    top: -50px;
+    margin-bottom: -40px;
+}
+
+.name{
+    color: #2E3349;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.age{
+    color: #6B7082;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.city{
+    color: #6B7082;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 13px;
+}
+
+.border{
+    width: 350px;
+    height: 1px;
+    background: #E8E9EC;
+    margin-top:28px;
+
+}
+
+.texts .txtsize{
+    display: block;
+    color: #6B7082;
+    padding-bottom: 25px;
+}
+
+.texts{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+    font-size: 30px;
+    width: 100%;
+    color: #2E3349;
+    letter-spacing: 2px;
+}
+
+.txtsize{
+    
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+h4{
+    margin-top:24px;
+    color: #2E3349;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: 700;
+}
+
